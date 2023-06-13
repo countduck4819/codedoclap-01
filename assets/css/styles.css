@@ -1,0 +1,96 @@
+:root {
+    --bg-color: green;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    position: relative;
+}
+
+/* Common */
+.main-content {
+    width: 1170px;
+    margin: 0px auto;
+}
+
+a {
+    text-decoration: none;
+    color: #2f3a3b;
+}
+
+.btn {
+    font-weight: 600;
+    font-size: 1.6rem;
+    text-align: center;
+    line-height: 1.5em;
+    color: #1ebfc1;
+    border: 1px solid #1ebfc1;
+    border-radius: 6px;
+    min-width: 108px;
+    display: inline-block;
+    height: 48px;
+    padding: 12px 24px;
+}
+
+/* Header */
+.header {
+    padding-top: 57px;
+    background-color: var(--bg-color);
+    position: sticky;
+    top: -57px;
+}
+
+.header .body {
+    display: flex;
+    align-items: center;
+}
+
+.header .logo {
+    display: inline-block;
+    padding: 5px;
+    margin-right: 235px;
+}
+
+.header .nav ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header .nav li a {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.5em;
+    color: #2f3a3b;
+    padding: 15px 10px;
+    display: inline-block;
+}
+
+.header .action {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.header .action button {
+    border: none;
+    background-color: transparent;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #494949;
+    margin-right: 12px;
+    cursor: pointer;
+    padding: 12px;
+}
